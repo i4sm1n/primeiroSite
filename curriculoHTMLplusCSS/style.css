@@ -1,0 +1,62 @@
+#header {
+    background-color: #dc143c81;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#nameTitle {
+    background-color: whitesmoke;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nameTitle h1, h2 {
+    margin: 0;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+#info, #links, #quality, #academic, #ijost, #idiomas, #xp, #awards {
+    list-style-type: none;
+}
+
+#info i, #links i {
+    width: 20px;
+    color: #dc143c81;
+    margin: auto;
+}
+
+#quality i, #academic i, #ijost i, #idiomas i, #xp i, #awards i {
+    width: 20px;
+    color: #dc143c81;
+    margin: auto;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 20px;
+    padding: 50px;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+#container h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#container ul, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content p {
+    text-align: justify;
+}
